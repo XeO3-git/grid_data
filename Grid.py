@@ -6,8 +6,6 @@ class PathData:
         self.x2 = int(x2)
         self.y1 = int(y1)
         self.y2 = int(y2)
-        # self.minDist = self.__get_min_dist(); # use this to figure out which nodes to go through
-    # def __gen_min_dist():
     def get_color(self):
         if self.resistance <= 20:
             return "blue"
